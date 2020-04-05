@@ -12,7 +12,7 @@ It also detects state changes (sitting -> standing and standing -> sitting) and 
 
 Arduino project setup is available in this link:
 
-[Hackster]
+https://www.hackster.io/vmehmeri/quantified-desk-iot-6647bf
 
 ### Requirements
 As a pre-requisite, an Azure IoT Hub must be setup and configured to route device messages to an Azure Service Bus queue.
