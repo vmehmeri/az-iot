@@ -18,7 +18,7 @@ WiFi101 library
 https://github.com/arduino-libraries/WiFi101
 
 Complete Project with Dashboard visualization
-https://github.com/vmehmeri/az-iot/QuantifiedDesk
+https://github.com/vmehmeri/az-iot/tree/master/QuantifiedDesk
 
 PRE-REQUISITE
 Setup Azure IoT Hub and upload SSL certificate to device (for your 
