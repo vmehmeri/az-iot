@@ -16,6 +16,11 @@ https://www.hackster.io/vmehmeri/quantified-desk-iot-6647bf
 
 ### Requirements
 As a pre-requisite, an Azure IoT Hub must be setup and configured to route device messages to an Azure Service Bus queue.
+- Instructions for setting up Azure IoT Hub:
+  https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-create-through-portal
+  
+  - Instructions for updating Firmware and adding SSL certificate to device:
+  https://www.arduino.cc/en/Tutorial/FirmwareUpdater
 
 #### Backend:
 
@@ -29,9 +34,15 @@ As a pre-requisite, an Azure IoT Hub must be setup and configured to route devic
 
 All can be installed with pip
 
-#### Arduino:
-- Arduino ultrasonic library: https://github.com/JRodrigoTech/Ultrasonic-HC-SR04
-- WiFi101 library: https://github.com/arduino-libraries/WiFi101
+#### Arduino Libraries:
+- Ultrasonic 
+- WiFi101 
+- RTCZero
+- WiFiUdp
+
+All those libraries are already available in Arduino Web Editor. The latest code can be accessed through the link below:
+
+https://create.arduino.cc/editor/vmehmeri/b4a14827-8a39-4c0a-b60f-6069339c7cf9/preview
 
 ### Usage
 First configure your connection details in 
