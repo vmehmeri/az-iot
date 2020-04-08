@@ -16,11 +16,18 @@ https://www.hackster.io/vmehmeri/quantified-desk-iot-6647bf
 
 ### Requirements
 As a pre-requisite, an Azure IoT Hub must be setup and configured to route device messages to an Azure Service Bus queue.
-- Instructions for setting up Azure IoT Hub:
+Your Arduino device will also require SSL certificates for connecting to the IoT Hub endpoint.
+
+- **Instructions for setting up Azure IoT Hub:**
   https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-create-through-portal
-  
-  - Instructions for updating Firmware and adding SSL certificate to device:
+
+- **Instructions for creating a Service Bus Queue:**
+  https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-quickstart-portal
+
+- **Instructions for updating Firmware and adding SSL certificate to device:**
   https://www.arduino.cc/en/Tutorial/FirmwareUpdater
+
+Configure your IoT Hub message routing under Messaging > Messaging routing > Add (then select your queue)
 
 #### Backend:
 
@@ -40,9 +47,10 @@ All can be installed with pip
 - RTCZero
 - WiFiUdp
 
-All those libraries are already available in Arduino Web Editor. The latest code can be accessed through the link below:
+All those libraries are already available in Arduino Web Editor. The latest code can also be accessed as a Web Editor sketch through the link below:
 
-https://create.arduino.cc/editor/vmehmeri/b4a14827-8a39-4c0a-b60f-6069339c7cf9/preview
+[Arduino Web Sketch](https://create.arduino.cc/editor/vmehmeri/b4a14827-8a39-4c0a-b60f-6069339c7cf9/preview "Arduino Web Sketch")
+
 
 ### Usage
 First configure your connection details in 
@@ -56,3 +64,5 @@ On a separate terminal, start backend
 ```
     python device_handler.py
 ```
+
+Both frontend and backend can run in any computer with access to the Azure URLs. 
