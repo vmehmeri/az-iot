@@ -3,10 +3,10 @@ from pusher import Pusher
 
 # configure pusher object
 pusher = Pusher(
-    app_id='YOUR_APP_ID',
-    key='YOUR_APP_KEY',
-    secret='YOUR_APP_SECRET',
-    cluster='CLUSTER',
+    app_id='975627',
+    key = "9bef95b942738c125933",
+    secret = "e5c2ebdfaaf632910f6f",
+    cluster = "eu",
     ssl=True
 )
 

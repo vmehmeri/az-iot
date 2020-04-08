@@ -4,13 +4,13 @@ from pusher import Pusher
 
 import datetime
 
-connect_str = "SERVICE-BUS_CONNECTIONSTRING"
-queue_name = "SERVICE-BUS_QUEUENAME"
+connect_str = "Endpoint=sb://mkr1000q.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=cHlniKNOcQHcvGrcU7jftu4gFCihlmOIzdXdX4wbzfY="
+queue_name = "mkr1000q"
 pusher = Pusher(
-    app_id='YOUR_APP_ID',
-    key='YOUR_APP_KEY',
-    secret='YOUR_APP_SECRET',
-    cluster='CLUSTER',
+    app_id='975627',
+    key = "9bef95b942738c125933",
+    secret = "e5c2ebdfaaf632910f6f",
+    cluster = "eu",
     ssl=True
 )
 

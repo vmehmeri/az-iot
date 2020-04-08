@@ -1,0 +1,30 @@
+{
+  "cpu": {
+    "fqbn": "arduino:samd:mkr1000",
+    "name": "Arduino MKR1000",
+    "type": "serial"
+  },
+  "secrets": [
+    {
+      "name": "SECRET_SSID",
+      "value": ""
+    },
+    {
+      "name": "SECRET_WIFIPASSWD",
+      "value": ""
+    },
+    {
+      "name": "SECRET_IOTHUB_HOSTNAME",
+      "value": ""
+    },
+    {
+      "name": "SECRET_DEVICE_POST_URI",
+      "value": ""
+    },
+    {
+      "name": "SECRET_DEVICE_SAS",
+      "value": ""
+    }
+  ],
+  "included_libs": []
+}
